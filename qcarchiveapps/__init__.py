@@ -1,10 +1,8 @@
 """
-QCArchiveApps
 Web portal applications for the QCArchive project.
 """
 
-# Add imports here
-from .qcarchiveapps import *
+import os
 
 # Handle versioneer
 from ._version import get_versions
