@@ -1,8 +1,8 @@
-i
+
 from flask import current_app, g
 import qcportal as ptl
 
-def get_db():
+def get_client():
     if 'connection' not in g:
         uri = current_app.config['QCPORTAL_URI']
 
