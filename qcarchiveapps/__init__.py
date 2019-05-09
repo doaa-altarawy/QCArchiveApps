@@ -2,7 +2,8 @@
 Web portal applications for the QCArchive project.
 """
 
-import os
+from .app import app, server
+from . import index
 
 # Handle versioneer
 from ._version import get_versions
