@@ -74,7 +74,7 @@ layout = lambda: html.Div(
                 html.P('First select a reaction dataset to get started:'),
                 #     html.P('SELECT a drug in the dropdown to add it to the drug candidates at the bottom.')
             ]),
-            dcc.Dropdown(id='available-rds', options=list_collections()),
+            dcc.Dropdown(id='available-rds', options=list_collections(), value="S22"),
             html.Div(id='rds-display-value'),
         ]),
         html.Div([
